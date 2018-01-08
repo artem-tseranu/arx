@@ -1,5 +1,6 @@
 require "arx/version"
 
 module Arx
-  # Your code goes here...
+  require_relative "arx/result"
+  require_relative "arx/switch_error"
 end
